@@ -28,6 +28,14 @@ nav>ul>li:not(:last-child) {
   padding-right: 25px;
 }
 
+section {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80%;
+  border: 1px solid blue;
+}
+
 /* Estilizar los encabezados de forma general */
 h1,
 h2,
