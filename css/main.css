@@ -1,0 +1,22 @@
+h1, h2, h3 {
+  font-family: Comfortaa, sans-serif;
+}
+
+h1 {
+  text-decoration: underline double;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline dotted;
+}
+
+p {
+  font-family: Cantarell, serif;
+  text-indent: 2em;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
