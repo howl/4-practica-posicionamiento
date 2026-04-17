@@ -28,6 +28,17 @@ nav>ul>li:not(:last-child) {
   padding-right: 25px;
 }
 
+/* Es un div que contiene section y aside, se ajusta como
+   relative para poder alinear el aside a la misma altura
+   que el section mediante absolute, sino se especifica un
+   posicionamiento distinto a static que es el de por
+   defecto se colocaría en el contenedor anterior que tenga
+   una posición distinta a static */
+#section-y-aside {
+  position: relative;
+  border: 1px solid black;
+}
+
 section {
   position: relative;
   top: 0;
