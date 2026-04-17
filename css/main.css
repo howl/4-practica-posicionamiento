@@ -20,7 +20,7 @@ h3 {
   text-decoration: underline dotted;
 }
 
-/* Estilizar párrafos en general */
+/* Estilizar párrafos dentro de section directos e indirectos. */
 section p {
   font-family: Cantarell, serif;
   text-indent: 2em;
