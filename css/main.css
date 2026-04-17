@@ -1,3 +1,10 @@
+/* Posicionamiento de los elementos principales de la estructura. */
+header {
+  /* Lo declaro solo a efectos de la práctica pero normalmente no es
+    necesario especificarlo ya que es el valor por defecto. */
+  position: static;
+}
+
 /* Estilizar los encabezados de forma general */
 h1,
 h2,
