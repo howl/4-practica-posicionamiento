@@ -65,6 +65,14 @@ aside {
   text-orientation: upright;
 }
 
+footer {
+  position: sticky;
+  bottom: 0px;
+  border: 1px solid green;
+  /* El dar color blanco es por lo mismo que el menú también sticky. */
+  background-color: white;
+}
+
 /* Estilizar los encabezados de forma general */
 h1,
 h2,
