@@ -5,6 +5,29 @@ header {
   position: static;
 }
 
+/* Nota de que sticky requiere que top esé dispuesto a la posición que queremos se adhiera, sino no hace efecto. */
+nav {
+  position: sticky;
+  top: 0px;
+  /* De normal es transparente y se observan los elementos que pasa por el. */
+  background-color: white;
+  /* Además hay que ponerle mayor prioridad de índice z para que no se quede por debajo de los demás elementos de la página. */
+  z-index: 10;
+}
+
+/* Ponemos los elementos del menú en vertical */
+nav>ul>li {
+  display: inline;
+}
+
+/* Damos separación a los elementos del menú menos al último.
+   Aunque no se notaría diferencia con respecto a no ponerlo
+   lo que se evita es un margen de más a la derecha de todo
+   el menú. */
+nav>ul>li:not(:last-child) {
+  padding-right: 25px;
+}
+
 /* Estilizar los encabezados de forma general */
 h1,
 h2,
