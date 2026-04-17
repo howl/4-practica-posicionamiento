@@ -1,5 +1,7 @@
 /* Estilizar los encabezados de forma general */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: Comfortaa, sans-serif;
 }
 
@@ -27,6 +29,6 @@ section p {
 }
 
 /* Ajustar tamaño de imagen demasiado grande */
-img#goku-developer  {
+img#goku-developer {
   width: 200px;
 }
