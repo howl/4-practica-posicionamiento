@@ -47,6 +47,24 @@ section {
   border: 1px solid blue;
 }
 
+/* Se va alineará con el section porque el div que contiene
+   a ambos le he dado un position relative, de forma que absolute
+   hace que el posicionado de aside sea relativo a este mismo.
+   Sino sería respecto del primer ancentro que tenga una propiedad
+   distinta de la de por defecto, es decir static. */
+aside {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 18%;
+  border: 1px solid red;
+  background-color: cadetblue;
+  /* En vez de incluir mucho contenido en vertical, simplemente
+     he hecho que el flujo del texto sea vertical. */
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
 /* Estilizar los encabezados de forma general */
 h1,
 h2,
