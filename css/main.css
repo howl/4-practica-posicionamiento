@@ -1,19 +1,24 @@
+/* Estilizar los encabezados de forma general */
 h1, h2, h3 {
   font-family: Comfortaa, sans-serif;
 }
 
+/* Estilizar h1 */
 h1 {
   text-decoration: underline double;
 }
 
+/* Estilizar h2 */
 h2 {
   text-decoration: underline;
 }
 
+/* Estilizar h3 */
 h3 {
   text-decoration: underline dotted;
 }
 
+/* Estilizar párrafos en general */
 p {
   font-family: Cantarell, serif;
   text-indent: 2em;
@@ -21,6 +26,7 @@ p {
   line-height: 1.5em;
 }
 
+/* Ajustar tamaño de imagen demasiado grande */
 img#goku-developer  {
   width: 200px;
 }
